@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+</head>
+<style>
+    p{
+        color: red;
+        text-align: center;
+    }
+
+    #titulo{
+        color: blue;
+        text-align: right;
+    }
+
+    .izquierda{
+        color: green;
+        text-align: left;
+    }
+    /*Los elementos de html de tipo "p" que tengan la clase "izquierda" */
+    p.izquierda{
+        text-decoration: underline;
+    }
+    .contraste {
+        background-color: black;
+    }
+    /* Agrupación de elementos */
+    h1, h2, p{
+        font-weight: bold;
+
+    }
+</style>
+<body>
+    <h1>Header simple</h1>
+    <h2 id="titulo">Header con id Titutlo</h2>
+    <p>Parrafo</p>
+
+    <h3 class="izquierda">Prueba clase Header 3</h3>
+    <p class="izquierda">Prueba clase parrado</p>
+    <p class="izquierda contraste"> Prueba multplis clases parrafo</p>
+</body>
+</html>
