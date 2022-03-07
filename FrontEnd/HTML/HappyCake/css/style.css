@@ -1,0 +1,144 @@
+*{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #FEF3F3;
+    margin: 40px 40px;
+}
+
+
+.logo{
+    width: 90px;
+}
+
+a{
+    font-size: x-large;
+    text-decoration: none;
+    color: #595959;
+}
+a:hover{
+    color: #F54748;
+}
+
+button{
+    background-color: #F54748;
+    border-radius: 8px;
+    color: #FEF3F3;
+    font-size: x-large;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 1;
+}
+
+.conocenos{
+    text-align: center;
+    color: #2E2E2E;
+}
+.subtitulo{
+    text-align: justify;
+    color: #2E2E2E;
+}
+
+p{
+    text-align: justify;
+    color: #595959;
+}
+
+b{
+    color: #F54748;
+}
+/* Imagen */ 
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+/* ##### Contactanos ##### */
+.contactanos{
+    display: flex;
+    justify-content: center;
+}
+/* Card del formulario */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 8px;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    padding: 2px 16px;
+  }
+
+/* Formulario */
+input{
+    border-radius: 5px;
+}
+
+textarea{
+    border-radius: 5px;
+}
+.datos{
+    text-align: justify;
+    color: #595959;
+    font-size: x-large;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+
+/* ##### FOOTER #####*/
+footer{
+    background-color: #F54748;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    color: #FEF3F3;
+    font-size: large;
+}
+
+
+
+/* ############### ORDENAR ##################*/
+.regresar{
+    display: flex;
+    justify-content:right
+}
+
+h2{
+    color:#2E2E2E;
+}
+
+.anadir{
+    background-color: #F54748;
+    color: #FEF3F3;
+}
+
+label{
+    color: #2E2E2E;
+}
+
+/* ############### ORDENES ##################*/
+table, th, td {
+    border: 1px solid #F54748;
+    border-collapse: collapse;
+    text-align: center;
+    color:#595959;
+  }
+
+.ordenes{
+    width: 70%;
+}

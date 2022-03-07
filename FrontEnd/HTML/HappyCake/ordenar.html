@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/img/cake.png"> 
+</head>
+<body>
+    <!-- HEADER --->
+    <header>
+        <nav>
+            <div>
+                <img class="logo" src="./assets/img/cake.png" alt="Happy Cake">
+                    <div class="regresar">
+                        <a href="./index.html"><button >Regresar</button></a>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+
+    <!-- Ordenar --->
+    <h1 class="conocenos">Haz tu pedido</h1>
+    <div id="contacto" class="contactanos">
+        <div class="card">
+            <div class="container">
+                <h2>Sabores</h2>
+                <p>Selecciona todos los sabores que quieres que tenga tu pastel</p>
+                <form action="">
+                    <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                    <label for="chocolate">Fresa $400.00 MXN</label><br>
+                    <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+                    <label for="vainilla">Chocolate $350.00 MXN</label><br>
+                    <input type="checkbox" id="carrot" name="carrot" value="carrot">
+                    <label for="carrot">Tres leches $500.00 MXN</label><br>
+                    <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                    <label for="cheese">Pay de limon $200.00 MXN</label><br><br>
+        
+                    <input type="submit" value="Añadir Sabor" class="anadir"><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <div id="contacto" class="contactanos">
+        <div class="card">
+            <div class="container">
+                <h2 id="tituloAdornos">Adornos</h2>
+                <p>Selecciona todos los adornos que quieres que tenga tu pastel</p>
+                <form action="">
+                    <input type="checkbox" id="perlas" name="perlas" value="perlas">
+                    <label for="perlas">Frutas $40.00 MXN</label><br>
+                    <input type="checkbox" id="flowers" name="flowers" value="flowers">
+                    <label for="flowers">Velas $10.00 MXN</label><br>
+                    <input type="checkbox" id="letters" name="letters" value="letters">
+                    <label for="letters">Letras $30.00 MXN</label><br>
+                    <input type="checkbox" id="confetti" name="confetti" value="confetti">
+                    <label for="confetti">Dedicatoria $50.00 MXN</label><br><br>
+        
+                    <input type="submit" value="Añadir Adornos" class="anadir"><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div id="contacto" class="contactanos">
+        <div class="card">
+            <div class="container">
+                <h2 id="tituloInformacionDeCompra">Finalizar pedido</h2>
+                <p>Ingresa por favor los datos que se te solicitan para completar tu pedido:</p>
+                <form action="">
+                    <label for="firstName" class="datos">Nombre</label><br>
+                    <input type="text" id="firstName" name="firstName"><br>
+                    <label for="email" class="datos">Email</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="telephone" class="datos">Teléfono</label><br>
+                    <input type="telephone" id="telephone" name="telephone"><br><br>
+                    <label for="message" class="datos">Añadir algun sabor o adorno especial en tu pastel</label><br>
+                    <textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+
+
+                    <input type="submit" value="Ordenar" class="anadir">
+                </form>
+            </div>
+        </div>
+    </div>
+|<br><br><br>
+
+    <footer></footer>
+    
+</body>
+</html>
