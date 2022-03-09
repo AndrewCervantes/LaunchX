@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Styles -->
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet"> 
+    	<link href="css/bootstrap.css" rel="stylesheet">
+    	<link href="css/fontawesome-all.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/vaccination.css">
+
+		<!-- Title -->
+		<title>Vaccination</title>
+        <link rel="shortcut icon" href="images/thor.png"> 
+
+	</head>
+
+	<body data-spy="scroll" data-target = ".fixed-top">
+		<nav  class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container">
+           		<div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <a class="navbar-brand"><h2 class="titulo">Vaccination</h2></a>
+                	<ul class="navbar-nav ml-auto">
+                    	<li class="nav-item">
+                        	<a class="nav-link page-scroll" href="#acerca">ABOUT ME<span class="sr-only">(current)</span></a>
+                    	</li>
+                    	<li class="nav-item">
+                        	<a class="nav-link page-scroll" href="#experiencia">EXPERIENCE</a>
+                    	</li>
+                    	<li class="nav-item">
+                        	<a class="nav-link page-scroll" href="#educacion">EDUCATION</a>
+                    	</li>
+                    	<li class="nav-item">
+                        	<a class="nav-link page-scroll" href="#proyecto">PROJECTS</a>
+                    	</li>
+                    	<li class="nav-item">
+                        	<a class="nav-link page-scroll" href="#habilidad">SKILLS</a>
+                    	</li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#curso">COURSES</a>
+                        </li>
+                	</ul>
+            	</div> <!-- end of navbar-collapse -->
+        	</div> <!-- end of container -->
+		</nav>
+		<!-- Header -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1 class="h1-large">Christian Andres Cervantes Moreno</h1>
+                            <h2 class="h2">Computer Systems Engineering</h2>
+                        </div> <!-- end of text-container -->
+                        <br><br><br><br><br> 
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-6">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="d-flex justify-content-around">
+                            <!-- GITHUB -->
+                            <a class="a-iconos" href="https://github.com/AndrewCervantes" target="blank">
+                                <svg xmlns="svg/github.svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                            </a>
+
+                            <!-- CV -->
+                            <a  href="/files/CV - CERVANTES.pdf" target="blank">
+                                <svg xmlns="svg/cv.svg" width="50" height="50" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+                                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"/>
+                                </svg>
+                                
+                            </a>
+
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/andrez.cervantes/" target="blank">
+                                <svg xmlns="svg/facebook.svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/christian-andres-cervantes-moreno-6970381a3/" target="blank">
+                                <svg xmlns="svg/linkedin.svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end of container -->
+        </header> <!-- end of header -->
+        <!-- end of header -->
+
+    	    <!-- About-->
+        <div id="acerca" class="basic-1 bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container first">
+                            <h2>Hello World!<br> I'm Christian Cervantes,</h2>
+                            <p>A <b>persevering, creative, honest, proactive </b>and<b> responsible</b> boy, who enjoys what he does and always gives the best of myself.</p>
+                            <p>Siempre tengo en mente la frase de “El éxito es para aquellos que no se rinden”, porque a lo largo de mi vida he pasado por llamémoslas experiencias de aprendizaje, que sin duda me han ayudado a crecer y a ser lo que hoy en día soy, tuve la oportunidad de irme de Intercambio Estudiantil a Riga Technical University en Riga, Latvia 🇱🇻 uno de los países bálticos.</p>
+                            <p><b><i>"Every day is another chance to change your life"</i></b></p>
+                            <p>Me gusta mucho practicar deporte, ya sea el salir a correr, ir al gym, o cualquier actividad de deporte, he practicado parkour, buceo, box, natación.  ⚽🥊🏊‍</p>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="text-container second">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="images/italy.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="images/londo.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="images/santorini.jpg" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-1 -->
+        <!-- end of about -->
+
+        <!-- Experiencia -->
+        <div id="experiencia" class="basic-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">Experiencia laboral.</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <br>
+                <div class="row company"> <!-- Inetum -->
+                    <div class="col-lg-4 card company_blue">
+                        <h6 class="company_letter">Abril 2021 - Actual </h6>
+                        <h4 class="company_letter"> Full Stack Developer INETUM </h4>
+                    </div>
+                    <div class="col-lg-8 card">
+                        <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México, bajo los esquemas de la metodología SCRUM implementando como tecnologías PHP, JS, HTML, CSS, PostgreSQL, Power BI y Smart View Excel. Además de desarrollo de tableros financieros con Power BI o Qlik Sense, utilizando para la extracción de datos Toad for Oracle</p>
+                    </div>   
+                </div> <!-- end of row -->
+                <br>
+                <div class="row company"> <!-- Claro drive -->
+                    <div class="col-lg-4 card company_blue">
+                        <h6 class="company_letter">Agosto 2020 - Marzo 2021</h6>
+                        <h4 class="company_letter"> Software QA Intern Claro Drive </h4>
+                    </div>
+                    <div class="col-lg-8 card">
+                        <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México, bajo los esquemas de la metodología SCRUM implementando como tecnologías PHP, JS, HTML, CSS, PostgreSQL, Power BI y Smart View Excel. Además de desarrollo de tableros financieros con Power BI o Qlik Sense, utilizando para la extracción de datos Toad for Oracle</p>
+                    </div>   
+                </div> <!-- end of row -->
+                <br>
+                <div class="row company"> <!-- Bimbo -->
+                    <div class="col-lg-4 card company_blue">
+                        <h6 class="company_letter">Febrero 2020 - Agosto 2020</h6>
+                        <h4 class="company_letter"> Intern Grupo Bimbo </h4>
+                    </div>
+                    <div class="col-lg-8 card">
+                        <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México, bajo los esquemas de la metodología SCRUM implementando como tecnologías PHP, JS, HTML, CSS, PostgreSQL, Power BI y Smart View Excel. Además de desarrollo de tableros financieros con Power BI o Qlik Sense, utilizando para la extracción de datos Toad for Oracle</p>
+                    </div>   
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-2 -->
+        <!-- end of experience -->
+
+        <!-- Educación -->
+        <div id="educacion" class="basic-2 bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">Educación.</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <br>
+                <div class="row justify-content-center">
+                    <!-- ESCOM -->
+                    <div class="col-lg-4 row justify-content-center">
+                        <div class="card company" style="width: 18rem;">
+                            <img src="images/escom.png" class="card-img-top" alt="alternative">
+                            <div class="card-body">
+                                <h5>Ing. Sistemas computacionales</h5>
+                                <p> Escuela Superior de Cómputo (ESCOM)</p>
+                                <p> Instituto Politecnico Nacional (IPN)</p>
+                                <p>Agosto 2015 - Enero 2021</p>
+                                <p>Estudiante de Excelencia Academica.</p>
+                            </div>
+                        </div>
+                    </div> <!-- end of ESCOM -->
+                    <!-- RTU -->
+                    <div class="col-lg-4 row justify-content-center">
+                        <div class="card company" style="width: 18rem;">
+                            <img src="images/rtu.png" class="card-img-top" alt="alternative">
+                            <div class="card-body">
+                                <h5>Exchange student</h5>
+                                <p> Faculty of Computer Science and Information Technology </p>
+                                <p> Riga Technical University</p>
+                                <p>Agosto 2019 - Enero 2020</p>
+                            </div>
+                        </div>
+                    </div><!-- end of RTU -->
+                    <!-- UNM -->
+                    <div class="col-lg-4 row justify-content-center">
+                        <div class="card company" style="width: 18rem;">
+                            <img src="images/unm.png" class="card-img-top" alt="alternative">
+                            <div class="card-body">
+                                <h5>Intensive English Course.</h5>
+                                <p> Academic English Language Enhancement and Engineering Project Management & Research Methods. </p>
+                                <p>The University of New Mexico</p>
+                                <p>Julio 2019 - Agosto 2019</p>
+                            </div>
+                        </div>
+                    </div><!-- end of UNM -->
+                </div>
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-2 -->
+        <!-- end of educacion -->
+
+
+         <!-- Proyectos -->
+        <div id="proyecto" class="basic-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">Proyectos.</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div>
+            <br>
+        
+            <div class="basic-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="text-container">
+                                <div class="image-container">
+                                    <a href="project.html">
+                                        <img class="img-fluid" src="images/work-1.jpg" alt="alternative">
+                                    </a>
+                                </div> <!-- end of image-container -->
+                                <p>Sistema de Gestión de Admisión Escolar.</p>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                        <div class="col-lg-4">
+                            <div class="text-container">
+                                <div class="image-container">
+                                    <a href="project.html">
+                                        <img class="img-fluid" src="images/work-2.jpg" alt="alternative">
+                                    </a>
+                                </div> <!-- end of image-container -->
+                                <p>Huachicol App</p>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                        <div class="col-lg-4">
+                            <div class="text-container">
+                                <div class="image-container">
+                                    <a href="project.html">
+                                        <img class="img-fluid" src="images/work-3.jpg" alt="alternative">
+                                    </a>
+                                </div> <!-- end of image-container -->
+                                <p>Sistema de Ventas de Refaccionaria.</p>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="text-container">
+                                <div class="image-container">
+                                    <a href="project.html">
+                                        <img class="img-fluid" src="images/work-4.jpg" alt="alternative">
+                                    </a>
+                                </div> <!-- end of image-container -->
+                                <p>Automata ERE.</p>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                        <div class="col-lg-4">
+                            <div class="text-container">
+                                <div class="image-container">
+                                    <a href="project.html">
+                                        <img class="img-fluid" src="images/work-5.jpg" alt="alternative">
+                                    </a>
+                                </div> <!-- end of image-container -->
+                                <p>Memorama Avengers</p>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                        <div class="col-lg-4">
+                            <div class="text-container">
+                                <div class="image-container">
+                                    <a href="project.html">
+                                        <img class="img-fluid" src="images/work-6.jpg" alt="alternative">
+                                    </a>
+                                </div> <!-- end of image-container -->
+                                <p>Instituto Fermat</p>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of basic-4 -->
+        </div><!-- end of proyectos -->
+
+
+        <!-- Habilidades -->
+        <div id="habilidad" class="basic-2 bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">Habilidades.</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <br>
+                <div class="alert alert-primary" role="alert">
+                    LENGUAJES DE PROGRAMACIÓN
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="progress-badge">JavaScript</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"><strong>2 años</strong></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="progress-badge">Python</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"><strong>2 años</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="progress-badge">Java</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong>1 año</strong></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="progress-badge">C</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong>1 año</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="progress-badge">SQL</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><strong>1 año</strong></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="progress-badge">PHP</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"><strong>6 meses</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="alert alert-primary" role="alert">
+                    TECNOLOGÍAS ESPECÍFICAS
+                </div>
+                <div class="row col-lg-12"> <!-- Tecnologias -->
+                    <table class="table table-hover tabla">
+                        <tbody>
+                          <tr>
+                            <td>
+                                <img src="images/html-5.png" alt="" width="50 px" height="50 px"><br>
+                                HTML
+                            </td>
+                            <td>
+                                <img src="images/css.png" alt="" width="50 px" height="50 px"><br>
+                                CSS
+                            </td>
+                            <td>
+                                <img src="images/jquery.png" alt="" width="50 px" height="50 px"><br>
+                                JQUERY
+                            </td>
+                            <td>
+                                <img src="images/bootstrap.png" alt="" width="50 px" height="50 px"><br>
+                                Bootstrap
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <img src="images/mysql.png" alt="" width="50 px" height="50 px"><br>
+                                MySQL
+                            </td>
+                            <td>
+                                <img src="images/postgre.png" alt="" width="50 px" height="50 px"> <br>
+                                PostgreSQL
+                            </td>
+                            <td>NACAR</td>
+                            <td>
+                                <img src="images/xml.png" alt="" width="50 px" height="50 px">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <img src="images/angular.png" alt="" width="50 px" height="50 px"><br>
+                                ANGULAR 8</td>
+                            <td>
+                                <img src="images/typescript.png" alt="" width="50 px" height="50 px"><br>
+                                TypeScript
+                            </td>
+                            <td>JUNIT</td>
+                            <td>
+                                <img src="images/selenium.png" alt="" width="50 px" height="50 px"><br>
+                                Selenium Webdriver
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <img src="images/git.png" alt="" width="50 px" height="50 px"><br>
+                                Git
+                            </td>
+                            <td>
+                                <img src="images/bitbucket.png" alt="" width="50 px" height="50 px"><br>
+                                Bitbucket
+                            </td>
+                            <td>LATEX</td>
+                            <td>
+                                <img src="images/jira.png" alt="" width="50 px" height="50 px"><br>
+                                JIRA</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div> <!-- end of row -->
+                <div class="alert alert-primary" role="alert">
+                    CERTIFICACIONES
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="alert alert-warning " role="alert">
+                            <p><strong>SCRUM MASTER</strong> 
+                                <img src="images/enlace.png" alt="" width="50 px" height="50 px"> 
+                            </p>
+                            <p>SCRUMstudy - 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="alert alert-warning " role="alert">
+                            <p><strong>Desarrollo Seguro</strong> </p>
+                            <p>BBVA - 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="alert alert-warning " role="alert">
+                            <p><strong>Git y Bitbucket</strong> </p>
+                            <p>BBVA - 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="alert alert-warning " role="alert">
+                            <p><strong>Java</strong> </p>
+                            <p>BBVA - 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-2 -->
+        <!-- end of habilidades -->
+
+        <!-- Cursos -->
+        <div id="curso" class="basic-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">Cursos.</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <br>
+                <div  class="row justify-content-center">
+                    <!-- Curso 1 -->
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+                </div> <!-- end of row -->
+                <br>
+                <div  class="row justify-content-center">
+                    <!-- Curso 1 -->
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card company">
+                            <p class="description"> Desarrollo colaborativo de un sistema para el Análisis Financiero de Grupo Bimbo México</p>
+                        </div>
+                    </div>
+                </div> <!-- end of row -->
+                <br><br>
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-2 -->
+        <!-- end of experience -->
+
+
+        
+
+
+
+		<!-- Scripts -->
+    	<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    	<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+   	 	<script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between-->
+    	<script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+
+	</body>
+</html>
