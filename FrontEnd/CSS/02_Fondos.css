@@ -41,7 +41,6 @@ div{
 .fondoPosicion{
     background-image: url("../assets/img/fondo1.jpg");
     background-repeat: no-repeat;
-    background-position: bottom right;
 }
 
 .fondoCompleto{

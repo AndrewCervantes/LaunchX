@@ -1,0 +1,32 @@
+*{
+    font-family: 'Readex Pro', sans-serif;;
+}
+.titulo{
+    color: #3656D4;
+}
+
+
+.inicio{
+    background-image: url("../images/nurse.png");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header .h5{
+	margin-bottom: 1.75rem;
+	color: #6d6d6d;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+.iconos{
+  color: #ffd012;
+  text-decoration: none;
+  background-color: #fffbcd;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #ffd012;
+  text-decoration: underline;
+}
+}
