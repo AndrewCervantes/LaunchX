@@ -1,0 +1,212 @@
+/**************************/
+/*     General Styles     */
+/**************************/
+body,
+html {
+    width: 100%;
+	height: 100%;
+    background-color:  #fcf3cf ;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue {
+  background-color: #3298cb;
+}
+
+.black{
+  background-color: #585858;;
+}
+.light-blue {
+  background-color: #85bdfe;
+}
+.light-red {
+    background-color: #fe98cb;
+  }
+.light-yellow {
+    background-color: #fefecb;
+  }
+.light-green {
+    background-color: #98fe00;
+  }
+
+
+
+body {
+	color: #4d5055; 
+	font: 400 1rem/1.625rem 'Readex Pro', sans-serif;
+}
+
+h1 {
+	color: #24262a;
+	font-weight: 600;
+	font-size: 2.0rem;
+	line-height: 3.25rem;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+h2 {
+	color: #24262a;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.5rem;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+h3 {
+	color: #24262a;
+	font-weight: 700;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+h4 {
+	color: #24262a;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+h5 {
+	color: #24262a;
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+h6 {
+	color: #24262a;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.375rem;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+
+
+
+/**************************/
+/*         LOGO           */
+/**************************/
+.logo{
+    background-image: url("../images/pokemon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/**************************/
+/*        BUSCADOR        */
+/**************************/
+.img_pokeball{
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.img_pokeball:hover{
+    -webkit-transform: translate(0, -8px);
+	-moz-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	-o-transform: translate(0, -8px);
+	transform: translate(0, -8px);
+}
+.btn_pokeball{
+    background-color: #fcf3cf;
+    border-color: #fcf3cf;
+    padding-left:  0.5rem;
+    padding-top: 0.5rem;
+    padding-right:  0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+/**************************/
+/*        Pokedex        */
+/**************************/
+
+.pokedex{
+    background-color: #fe0065; 
+    border-radius: 1rem;
+    border-color: #24262a;
+
+}
+
+.head_pokedex{
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
+.small-lights-container {
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-self: start;
+    justify-content: space-around;
+  }
+  
+  .small-light {
+    border: solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 0.1rem;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    border-radius: 50%;
+  }
+
+/**************************/
+/*     Center Pokedex     */
+/**************************/
+.center{
+  padding: 0.5rem;
+  background-color: #24262a;
+  border-radius: 5px;
+}
+
+.img_center{
+    padding: 1rem;
+    background-color:#fcf3cf;
+    border: solid black;
+}
+
+
+.btn{
+  border: solid black;
+  width:80px;
+  height: 15px;
+  border-radius: 5px;
+  margin-left: 0.1rem; 
+}
+
+.circle{
+  border: solid black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 0.1rem;
+}

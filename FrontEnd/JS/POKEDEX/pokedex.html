@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Title-->
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="images/pokeball.png"> 
+
+</head>
+<body>
+    <header>            
+        <div class="container">
+            <div class="logo">
+                <br>
+                <br>
+                <br><br><br><br><br>
+            </div>
+        </div> <!-- end of container -->
+    </header>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingresa pokemon" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <a class="btn_pokeball" type="button" id="pokeball">
+                        <img class="img_pokeball" src="./images/pokeball.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 pokedex">
+                <!--Head Pokedex-->
+                <div class="d-flex">
+                    <div class=" mr-auto p-2">
+                        <img src="./images/circle.png" alt="circle" width="60px" height="60px">
+                    </div>
+                    <div class=" d-flex justify-content-center">
+                        <div class="small-lights-container">
+                            <div class="small-light red">
+                                <div class="dot light-red"></div>
+                            </div>
+                            <div class="small-light yellow">
+                                <div class="dot light-yellow"></div>
+                            </div>
+                            <div class="small-light green">
+                                <div class="dot light-green"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- END Head Pokedex-->
+
+
+                <!-- Center Pokedex-->
+                <div class="center">
+                    <div class="card">
+                        <div class="a">
+                            <img src="./images/pikachu.png" alt="picachu" class=" card-img-top img_center">
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <!--Bottoms Pokedex-->
+                <div class="d-flex justify-content-center">
+                    <div class="p-2 btn blue">
+                    </div>
+                    <div class="p-2">
+                        
+                    </div>
+                    <div  class="p-2 btn red">
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div class="mr-auto p-2">
+                        <div class="circle black">
+
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pokedex">.col-md-1</div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+
+
+
+
+     <!-- Scripts -->
+     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    
+</body>
+</html>
