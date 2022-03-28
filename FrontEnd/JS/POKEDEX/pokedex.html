@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <!--Title-->
+    <!--Title--> 
     <title>Pokedex</title>
     <link rel="shortcut icon" href="images/pokeball.png"> 
 
@@ -31,18 +31,18 @@
             <div class="col-md-2"></div>
             <div class="col-md-4">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Ingresa pokemon" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <a class="btn_pokeball" type="button" id="pokeball">
-                        <img class="img_pokeball" src="./images/pokeball.png">
+                    <input type="text" class="form-control" placeholder="Ingresa pokemon" aria-label="Recipient's username" aria-describedby="button-addon2" id = "pokeName" name ="pokeName">
+                    <a class="btn_pokeball" type="button" id="pokeball" onclick="fecthPokemon()">
+                        <img class="img_pokeball" src="./images/pokeball.png" width="50px" height="50px">
                     </a>
                 </div>
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-2"></div>
         </div>
-        <br>
+
         <div class="row">
-            <div class="col-md-2"></div>
+            <div class="col-md-4"></div>
             <div class="col-md-4 pokedex">
                 <!--Head Pokedex-->
                 <div class="d-flex">
@@ -68,11 +68,13 @@
                 <!-- Center Pokedex-->
                 <div class="center">
                     <div class="card">
-                        <div class="a">
-                            <img src="./images/pikachu.png" alt="picachu" class=" card-img-top img_center">
+                        <div class="b">
+                            <div class="a d-flex justify-content-center">
+                                <img src="./images/pokeball.png" alt="picachu" class=" card-img-top img_center" id="pokeImg">
+                            </div>
                         </div>
-                        <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-body b" id ="pokeData">
+                          
                         </div>
                     </div>
                 </div>
@@ -89,20 +91,24 @@
                     </div>
                 </div>
 
-                <div class="d-flex">
-                    <div class="mr-auto p-2">
-                        <div class="circle black">
-
+                <div class="d-flex justify-content-around">
+                    <div class="p-2">
+                        <div class="circle black"></div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="rect light-green"  id ="pokeInfo">
                         </div>
                     </div>
                     <div class="p-2">
-                        
+                        <div>
+                            <img src="./images/cruz.png" alt="circle" width="80px" height="80px">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 pokedex">.col-md-1</div>
-            <div class="col-md-2"></div>
+            <div class="col-md-4"></div>
         </div>
+        <br>
     </div>
 
 
@@ -110,6 +116,7 @@
 
 
      <!-- Scripts -->
+     <script src="js/pokedex.js"></script> <!-- Pokedex funtions -->
      <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
      <script src="js/scripts.js"></script> <!-- Custom scripts -->
     
