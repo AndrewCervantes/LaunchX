@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Launch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!--div con id app  muestra un mensaje
+    <div id="app">
+        <h1>{{ message }} {{name}} </h1>
+    </div>
+-->
+    <!--Generado-->
+    <div id="app">
+        <!--Se requiere hacer un vue bind (mandar el parametro de la img) -->
+        <img v-bind:src="foto" alt="foto perfil" :class="genero">
+        <h1>{{nombre}} {{apellido}}</h1>
+        <h3>{{email}}</h3>
+        <!-- Mandar interacciones con vue s v-on-->
+        <button v-on:click="cambiarUsuario()" :class="genero">Tener un usuario random</button>
+    </div>
+
+
+    <script src="https://unpkg.com/vue@3"></script> <!--Importar Vue-->
+    <script src="./app.js"></script>
+</body>
+</html>
